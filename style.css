@@ -7,13 +7,11 @@
     background: #F8F8FF;
     padding: 64px 0;
     gap: 24px;
-    border: 1px solid black;
 }
 
 .grid_cabecalho {
     max-width: 1216px;
     height: auto;
-    border: 1px solid red;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -94,8 +92,6 @@ span {
 .title_conteudo {
     width: 327px;
     margin-bottom: 40px;
-
-    border: 1px solid black;
 }
 
 .recomendados {
@@ -119,7 +115,6 @@ span {
     width: 335px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
     border: 1px solid #EEEEFF;
     border-radius: 4px 4px 0px 0px;  
 }
@@ -127,6 +122,13 @@ span {
 .img_card {
     width: 327px;
     height: 175px;
+}
+
+.box_information{
+    width: 327px;
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title_card {
@@ -249,6 +251,14 @@ span {
     .img_card {
         width: 385px;
         height: 175px;
+    }
+
+    .box_information{
+        display: flex;
+        flex-direction: column;
+        width: 384px;
+        height: 182px;
+        padding: 32px 24px;
     }
 
     .title_card{
