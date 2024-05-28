@@ -147,6 +147,31 @@ span {
     text-align: left;
 }
 
+.background_rodape{
+    max-width: 1920px;
+    height: 590px;
+    display: grid;
+    
+    padding: 64px, 0px, 64px, 0px;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8FF;
+    gap: 48px;
+}
+
+.container_conteudo_rodape{
+    width: 326px;
+    height: 462px;
+
+    border: 1px solid black;
+}
+
+.box_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 
 @media(min-width: 640px) {
 
