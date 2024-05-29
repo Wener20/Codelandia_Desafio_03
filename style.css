@@ -115,18 +115,19 @@ span {
     width: 335px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #EEEEFF;
-    border-radius: 4px 4px 0px 0px;  
+    border: 2px solid #EEEEFF;
+    border-radius: 4px;
+    gap: 12px;
 }
 
 .img_card {
-    width: 327px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
 }
 
 .box_information{
     width: 327px;
-    padding: 12px 12px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
 }
@@ -162,14 +163,59 @@ span {
 .container_conteudo_rodape{
     width: 326px;
     height: 462px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.box_info{
+.entre_contato {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32.81px;
+    text-align: left;
+}
+
+
+#form_rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input_rodape{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
+    height: 48px;
+    padding: 16px 18px;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+
+.Assunto{
+    width: 100%;
+    height: 150px;
+    padding: 16px 18px;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+
+.contato{
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    background: #846AFF;
+    color: white;
+    border: #846AFF;
+}
+
+::placeholder {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #7C7C8A;
 }
 
 
