@@ -102,7 +102,7 @@ span {
     text-align: left;
 }
 
-.container_cards{
+.container_cards {
     width: 327px;
     display: grid;
     grid-template-columns: 1fr;
@@ -111,7 +111,7 @@ span {
     gap: 40px;
 }
 
-.card{
+.card {
     width: 335px;
     display: flex;
     flex-direction: column;
@@ -125,8 +125,9 @@ span {
     height: 100%;
 }
 
-.box_information{
-    width: 327px;
+.box_information {
+    width: 100%;
+    height: 100%;
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -148,11 +149,11 @@ span {
     text-align: left;
 }
 
-.background_rodape{
+.background_rodape {
     max-width: 1920px;
     height: 590px;
     display: grid;
-    
+
     padding: 64px, 0px, 64px, 0px;
     justify-content: center;
     align-items: center;
@@ -160,14 +161,12 @@ span {
     gap: 48px;
 }
 
-.container_conteudo_rodape{
+.container_conteudo_rodape {
     width: 326px;
     height: 462px;
     display: flex;
     flex-direction: column;
     gap: 48px;
-
-    /* border: 1px solid black; */
 }
 
 .entre_contato {
@@ -179,13 +178,13 @@ span {
 }
 
 
-#form_rodape{
+#form_rodape {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.input_rodape{
+.input_rodape {
     width: 100%;
     height: 48px;
     padding: 16px 18px;
@@ -193,7 +192,7 @@ span {
     border: 1px solid #EAEAEA;
 }
 
-#msg_assunto{
+#msg_assunto {
     width: 100%;
     height: 150px;
     padding: 16px 18px;
@@ -215,7 +214,6 @@ span {
     font-weight: 700;
     line-height: 18.75px;
     text-align: center;
-
 }
 
 ::placeholder {
@@ -224,7 +222,6 @@ span {
     font-weight: 400;
     line-height: 16.41px;
     color: #7C7C8A;
-
 }
 
 
@@ -263,19 +260,37 @@ span {
         line-height: 34.81px;
     }
 
-    .container_cards{
+    .container_cards {
         width: 710px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
 
-    .img_card {
-        width: 335px;
-        height: 175px;
+    .background_rodape {
+        height: 649px;
+        padding: 80px 32px;
     }
 
+    .container_conteudo_rodape {
+        width: 704px;
+        height: 484px;
+    }
 
+    .input_rodape {
+        height: 58px;
+        padding: 19px 24px;
+    }
+
+    ::placeholder {
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+
+    #msg_assunto {
+        padding: 19px, 24px;
+        gap: 10px;
+    }
 }
 
 @media(min-width: 1000px) {
@@ -319,38 +334,52 @@ span {
         line-height: 37.5px;
     }
 
-    .container_cards{
+    .container_cards {
         width: 1216px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 40px;
-
-        border: 1px solid saddlebrown;
+        gap: 32px;
     }
 
-    .img_card {
-        width: 385px;
-        height: 175px;
-    }
-
-    .box_information{
-        display: flex;
-        flex-direction: column;
+    .card {
         width: 384px;
-        height: 182px;
-        padding: 32px 24px;
+        height: 357px;
     }
 
-    .title_card{
+    .box_information {
+        padding: 0px 24px;
+    }
+
+    .title_card {
         font-size: 20px;
         line-height: 26px;
     }
 
-    .description_card{
+    .description_card {
         font-size: 18px;
         line-height: 27px;
     }
 
+    .background_rodape {
+        height: 649px;
+    }
+
+    .container_conteudo_rodape {
+        width: 592px;
+        height: 489px;
+    }
+
+    .entre_contato {
+        font-size: 32px;
+        line-height: 37.5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #form_rodape {
+        width: 592px;
+        height: 316px;
+    }
 
 
 }
