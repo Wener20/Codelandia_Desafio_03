@@ -293,7 +293,7 @@ span {
     }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1025px) {
 
     .grid_cabecalho {
         grid-template-columns: 1fr 1fr;
